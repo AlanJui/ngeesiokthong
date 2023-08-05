@@ -1,0 +1,17 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 個人愛用的漢字庫
+#
+
+---
+name: peh_ue_im_han_ji
+version: "v0.0.0.1"
+sort: by_weight
+use_preset_vocabulary: true
+---
+合	kap4	1%
+君	kun1
+褌	kun1
+裩	kun1	1%
+軍	kun1

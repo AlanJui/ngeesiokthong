@@ -2,14 +2,15 @@
 # encoding: UTF-8 w/o BOM
 
 schema:
-  schema_id: ngsth_bun
-  name: 雅俗通·文
-  version: "2021.3.21"
+  schema_id: peh_ue_im
+  name: 十五音·白話音
+  version: "2023.8.5"
   author:
     - 東苑謝秀嵐 編輯
     - 後學 Thothit 整理
+    - 好事者 AlanJui 改用白話音
   description: |
-    基於《雅俗通》(Ngée-sio̍k-thong)所收紅字校增
+    基於《雅俗通》(Ngée-sio̍k-thong) 拼音法，但改「文讀音」為「白話音」。期以此輸入法，為保留古老的漢字讀音盡一份心力。
   dependencies:
     - luna_pinyin
 
@@ -79,6 +80,7 @@ speller:
 
 translator:
   dictionary: ngsth_bun
+  # dictionary: peh_ue_im_han_ji
   spelling_hints: 5
   preedit_format:
   comment_format:
