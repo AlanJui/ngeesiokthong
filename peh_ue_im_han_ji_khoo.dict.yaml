@@ -3,15 +3,10 @@
 #
 # 個人愛用的漢字庫
 #
-
 ---
-name: peh_ue_im_han_ji
+name: peh_ue_im_han_ji_khoo
 version: "v0.0.0.1"
 sort: by_weight
-use_preset_vocabulary: true
+use_preset_vocabulary: false
 ---
-合	kap4	1%
-君	kun1
-褌	kun1
-裩	kun1	1%
-軍	kun1
+#   單字／詞彙
