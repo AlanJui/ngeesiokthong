@@ -48,12 +48,9 @@ engine:
     - simplifier
     - uniquifier
 
-menu:
-  alternative_select_labels: [Ａ, Ｂ, Ｃ, Ｄ, Ｅ, Ｆ, Ｇ, Ｈ, Ｉ, Ｊ]
-  alternative_select_keys: "ABCDEFGHIJ"
-
 speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba12345678
+  # alphabet: zyxwvutsrqponmlkjihgfedcba12345678
+  alphabet: zyxwvutsrqponmlkjihgfedcba[/\]90-;
   delimiter: " '"
   algebra:
     #   去掉聲調
@@ -80,17 +77,72 @@ speller:
     - abbrev/^(ch).+$/$1/
     - abbrev/^(ts).+$/$1/
     - abbrev/^(tsh).+$/$1/
+    - 'xlit 12345678 [/\]90-;'
 
 translator:
   dictionary: ngsth_bun
   spelling_hints: 5
   preedit_format:
+    - 'xform ([aeiou])(r?m?n*h?g?p?t?k?)([\[/\\\]90\-;]) $1$3$2'
+    - 'xform ([aeo])([iueo])([\[/\\\]90\-;]) $1$3$2'
+    - 'xform a\[ a'
+    - 'xform e\[ e'
+    - 'xform i\[ i'
+    - 'xform u\[ u'
+    - 'xform o\[ o'
+    - 'xform m\[ m'
+    - 'xform ng\[ ng'
+    - "xform a/ á"
+    - "xform e/ é"
+    - "xform i/ í"
+    - "xform u/ ú"
+    - "xform o/ ó"
+    - "xform m/ ḿ"
+    - "xform ng/ ńg"
+    - 'xform a\\ à'
+    - 'xform e\\ è'
+    - 'xform i\\ ì'
+    - 'xform u\\ ù'
+    - 'xform o\\ ò'
+    - 'xform ng\\ ǹg'
+    - 'xform a\] a'
+    - 'xform e\] e'
+    - 'xform i\] i'
+    - 'xform u\] u'
+    - 'xform o\] o'
+    - 'xform mh\] mh'
+    - 'xform ngh\] ngh'
+    - "xform a9 â"
+    - "xform e9 ê"
+    - "xform i9 î"
+    - "xform u9 û"
+    - "xform o9 ô"
+    - "xform m9 m̂"
+    - "xform ng9 n̂g"
+    - "xform a0 ǎ"
+    - "xform e0 ě"
+    - "xform i0 ǐ"
+    - "xform u0 ǔ"
+    - "xform o0 ǒ"
+    - "xform ng0 ňg"
+    - "xform a- ā"
+    - "xform e- ē"
+    - "xform i- ī"
+    - "xform u- ū"
+    - "xform o- ō"
+    - "xform m- m̄"
+    - "xform ng- n̄g"
+    - "xform a; a̍"
+    - "xform e; e̍"
+    - "xform i; i̍"
+    - "xform u; u̍"
+    - "xform o; o̍"
+    - "xform mh; m̍h"
+    - "xform ngh; n̍gh"
   comment_format:
     #=============================================
-    # - xform/^([a-z]+\d)$/$1;$1/
+    - xform/^([ptkmnbglsjhiuc]g?s?h?h?)((?:[aiueo]+(?:[mn]|ng)?[a-ln-uxz]*|m|mh|ng|ngh)(?![aiueo]+))([1-8])$/$1$2$3;$2$3$1/
     #=============================================
-    # - xform/([ptkmnbglsjhiuc]g?s?h?h?)(\b(?:[aiueo]+(?:[mn]|ng)?[a-ln-uxz]*|m|mh|ng|ngh)(?![aiueo]+\d)\b)([12345678])$/$1$2$3;$2$3$1/
-    - xform/^([ptkmnbglsjhiuc]g?s?h?h?)((?:[aiueo]+(?:[mn]|ng)?[a-ln-uxz]*|m|mh|ng|ngh)(?![aiueo]+\d))([12345678])$/$1$2$3;$2$3$1/
     - xform/;u(n|t)(\d)/\[君;$2/
     - xform/;ia(n|t)(\d)/\[堅;$2/
     - xform/;i(m|p)/\[金;/
@@ -134,6 +186,7 @@ translator:
     - xform/;aunn/\[爻;/
     - xform/;onn(h?)/\[扛;/
     - xform/;iunn/\[牛;/
+    #=============================================
     - xform/;1/一;/
     - xform/;2/二;/
     - xform/;3/三;/
@@ -141,6 +194,7 @@ translator:
     - xform/;5/五;/
     - xform/;7/七;/
     - xform/;8/八;/
+    #=============================================
     - xform/;l/柳]/
     - xform/;p(?!h)/邊]/
     - xform/;k(?!h)/求]/
@@ -156,6 +210,7 @@ translator:
     - xform/;g/語]/
     - xform/;ch/出]/
     - xform/;h/喜]/
+    #=============================================
     #   以下爲羅馬字轉寫
     - xform/q//
     - xform/c/ts/
@@ -165,6 +220,7 @@ translator:
     - xform/b([aeiou]+)nn/m$1/
     - xform/l([aeiou]+)nn/n$1/
     - xform/g([aeiou]+)nn/ng$1/
+    #=============================================
     #   標調
     - xform/([aeiou])(m?n*h?g?p?t?k?)([1234578])/$1$3$2/
     - xform/([aeo])([iueo])([1234578])/$1$3$2/
@@ -194,8 +250,6 @@ translator:
     - "xform u5 û"
     - "xform o5 ô"
     - "xform a7 ā"
-    #   - { when: paging, accept: minus, send: Page_Up }
-    #   - { when: has_menu, accept: equal, send: Page_Down }
     - "xform e7 ē"
     - "xform i7 ī"
     - "xform u7 ū"
@@ -205,6 +259,7 @@ translator:
     - "xform i8 i̍"
     - "xform u8 u̍"
     - "xform o8 o̍"
+    #=============================================
     #   鼻化符號顯示成上標
     - xform/nn(h?)(\d|\>)/ⁿ$1$2/
     #=============================================
