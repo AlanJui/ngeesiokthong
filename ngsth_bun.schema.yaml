@@ -194,6 +194,8 @@ translator:
     - "xform u5 û"
     - "xform o5 ô"
     - "xform a7 ā"
+    #   - { when: paging, accept: minus, send: Page_Up }
+    #   - { when: has_menu, accept: equal, send: Page_Down }
     - "xform e7 ē"
     - "xform i7 ī"
     - "xform u7 ū"
