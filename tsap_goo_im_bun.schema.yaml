@@ -2,12 +2,13 @@
 # encoding: UTF-8 w/o BOM
 
 schema:
-  schema_id: ngsth_bun
-  name: 雅俗通·文
-  version: "2021.3.21"
+  schema_id: tsap_goo_im_bun
+  name: 十五音·文讀音
+  version: "2023.8.16"
   author:
     - 東苑謝秀嵐 編輯
     - 後學 Thothit 整理
+    - 後學 居正中 調適
   description: |
     基於《雅俗通》(Ngée-sio̍k-thong)所收紅字校增
   dependencies:
@@ -125,7 +126,7 @@ translator:
     - "xform i0 ǐ"
     - "xform u0 ǔ"
     - "xform o0 ǒ"
-    - "xform ng0 ňg"
+    - "xform ng0 ňg"
     - "xform a- ā"
     - "xform e- ē"
     - "xform i- ī"

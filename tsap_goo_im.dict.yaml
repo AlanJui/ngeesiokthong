@@ -6,11 +6,12 @@ name: tsap_goo_im
 version: "1"
 sort: by_weight
 use_preset_vocabulary: true
-import_tables:
+# import_tables:
 ---
-𪑖	un1p
+#   單字
+𪑖	un1p	1%
 𪒰	un1p
-君	un1k
+君	un1k	10%
 褌	un1k
 裩	un1k
 軍	un1k
