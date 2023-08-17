@@ -12,7 +12,7 @@ use_preset_vocabulary: true
 #   詞彙
 yamllint-disable-line truthy
 喘大氣	tshuan2 tua7 khui3
-僥倖	hiau1 hing7 hing7	hiau-hīng hiâu-hīng
+僥倖	hiau1 hing7	hiau-hīng hiâu-hīng
 安爾	an2 ni1	án-ni
 叫是	kio3 si7	kiò-sī
 却是	khiok4 si7	khiok-sī（以為／卻是）
@@ -26,7 +26,7 @@ yamllint-disable-line truthy
 敢安爾	kam2 an1 ni2	kám-an-ní
 這兒等	tse1 a1 tan2	tse-a-tán
 順續	sun7 sua3	sūn-suà
-順勢	sūn-sì/sūn-sè
+順勢	sun7 si3	sūn-sì/sūn-sè
 腹肚枵	pak4 too2 iau1	pak-tóo-iau
 晏安	uann3 an1	uànn-an
 暗時	am3 si5	àm-sî
@@ -41,7 +41,6 @@ yamllint-disable-line truthy
 綴	tue3	tuè/tsuè（接連）
 綴	tsue3	tuè/tsuè（接連）
 規夜	kui1 ia7	kui-iā（整夜）
-袂曉	be7 hiau2	bē-hiáu（不會）
 圈	khoo1	（箍）
 圓圈	inn5 khoo1	înn-khoo
 加五圈	ke1 goo7 khoo1	ke-gōo-khoo
@@ -52,6 +51,7 @@ yamllint-disable-line truthy
 提掉	theh8 tiau7	the̍h-tiāu
 𣍐曉	be7 hiau2
 𣍐曉	bue7 hiau2	10%
+袂曉	be7 hiau2	1%	bē-hiáu（不會）
 秤採	tshiann2 tshai5	tshiánn-tshâi（隨便	請對方決定，民間廣為流行之後，衍生隨你便之意；有用「請裁」）
 斬截	tsam7 tsat4	tsām-tsat
 𪁎趒	tshio1 tio5	tshio-tiô（囂張）
