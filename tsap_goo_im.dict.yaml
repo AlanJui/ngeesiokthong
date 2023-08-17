@@ -1,16 +1,17 @@
 # Rime dictionary
 # encoding: utf-8
-
 ---
 name: tsap_goo_im
 version: "1"
 sort: by_weight
-use_preset_vocabulary: true
-# import_tables:
----
+use_preset_vocabulary: false
+...
 #   單字
-𪑖	un1p	1%
-𪒰	un1p
+大家好	hello
+再見	bye
+再會	bye
+# 𪑖	un1p	1%
+# 𪒰	un1p
 君	un1k	10%
 褌	un1k
 裩	un1k
@@ -6278,7 +6279,7 @@ use_preset_vocabulary: true
 妥	o2th
 討	o2th
 左	o2ch
-	o2ch
+		ch
 早	o2ch
 蚤	o2ch
 𧎮	o2ch
@@ -9994,7 +9995,7 @@ use_preset_vocabulary: true
 庳	i7p
 埤	i7p
 俾	i7p
-亻𤰞	i7p
+亻		i7p
 備	i7p
 俻	i7p
 𠏆	i7p

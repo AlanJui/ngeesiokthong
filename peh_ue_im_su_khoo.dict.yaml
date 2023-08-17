@@ -8,8 +8,9 @@ name: peh_ue_im_su_khoo
 version: "v0.0.0.1"
 sort: by_weight
 use_preset_vocabulary: true
----
+...
 #   詞彙
+yamllint-disable-line truthy
 喘大氣	tshuan2 tua7 khui3
 僥倖	hiau1 hing7 hing7	hiau-hīng hiâu-hīng
 安爾	an2 ni1	án-ni

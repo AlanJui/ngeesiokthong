@@ -8,8 +8,8 @@ name: peh_ue_im_han_ji_khoo
 version: "v0.0.0.1"
 sort: by_weight
 use_preset_vocabulary: false
----
-##	a/ah
+...
+#   單字
 阿祖	a tsoo
 阿太	a thai
 阿公	a kong
