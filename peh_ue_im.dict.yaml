@@ -12,8 +12,10 @@ version: 'V0.0.0.1'
 sort: by_weight
 use_preset_vocabulary: false
 import_tables:
+  # - tai_gi_su_khoo
   - ngsth_bun
-  - tai_gi_su_khoo
+  - peh_ue_im_su_khoo
+  - peh_ue_im_siok_gi
   - peh_ue_im_ka_ki
 ...
 #   單字
