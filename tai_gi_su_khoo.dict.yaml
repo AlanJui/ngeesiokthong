@@ -1,0 +1,17 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# ngsth_bun 雅俗通·文
+#
+#  東苑謝秀嵐 編輯
+#  後學 Thothit 整理
+#
+---
+name: tai_gi_su_khoo
+version: 'V0.0.0.1'
+sort: by_weight
+use_preset_vocabulary: false
+...
+#   詞組	羅馬字拼音	說明文字
+yamllint-disable-line truthy
+仔
