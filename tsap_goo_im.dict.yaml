@@ -10,8 +10,8 @@ use_preset_vocabulary: false
 大家好	hello
 再見	bye
 再會	bye
-# 𪑖	un1p	1%
-# 𪒰	un1p
+𪑖	un1p	1%
+𪒰	un1p
 君	un1k	10%
 褌	un1k
 裩	un1k
