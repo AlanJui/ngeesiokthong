@@ -10,7 +10,28 @@ sort: by_weight
 use_preset_vocabulary: false
 ...
 #   詞彙
-yamllint-disable-line truthy
+一寡	tsit8 kua2	5%		一些
+一霎仔久	tsit8 sap4 a2 ku2	5%		指極短的時間內
+一點仔	tsit8 tiam2 a2	5%		一點點
+又佫	iu7 koh4	5%		又再
+干焦	kan1 na1	5%		僅只
+毋但	m7 na7	5%		不僅（反義詞：干焦）
+才知	tsiah4 tsai1	5%		這才知道
+才會	tsiah4 e7
+中晝	tiong1 tau3	5%		中午，午時
+予人知影	hoo7 lang5 tsai1 iann2
+今也	tsim2 ma2	5%		現在，有人稱：這馬
+今也	tsim2 a2	5%		現在，有人稱：這馬
+今仔日	kin1 a2 jit8	5%		今日、今天
+少󠇡寡	tsio2 khua2	5%		一點點、一些些
+尤其	iu5 ki5	5%		特別是⋯⋯
+歹過	phainn2 kue3
+毋才	m7 tsiah1	5%		所以才⋯⋯
+毋好閣忍	m7 ho2 koh4 jim2	5%		不宜再忍
+毋知	m7 tsai1	5%		不知道
+毋捌	m7 bat4	5%		不曾過
+毋通	m7 thang1	5%		不可以
+去叼	khi2 toh4	5%		去那裡
 喘大氣	tshuan2 tua7 khui3
 僥倖	hiau1 hing7	hiau-hīng hiâu-hīng
 安爾	an2 ni1	án-ni
@@ -56,3 +77,4 @@ yamllint-disable-line truthy
 斬截	tsam7 tsat4	tsām-tsat
 𪁎趒	tshio1 tio5	tshio-tiô（囂張）
 不輸	be7 su1	10%	好像
+一个	tsit8 e5		一個.    iukoh
